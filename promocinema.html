@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">Logo</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="single.html">Single</a></li>
+			<li class="header__menu__item"><a href="page.html">Page</a></li>
+			<li class="header__menu__item"><a href="">Item</a></li>
+			<li class="header__menu__item"><a href="">Item</a></li>
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Promo Cinematografici </h1>
+				<h2>Promo realizzati attraverso la tecnica dello storytelling che unisce il cinema moderno con esponenti sportivi </h2>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="promocinema__starwars">
+	<a href="starwars.html"><div img class="promocinema__starwars__image" src="http://i.imgur.com/5D4wN2r.png" ></div></a>
+	<div class="promocinema__copy">
+		<div class="promocinema__copy__text">
+			<h3>Star Wars Serie One - All Against The Empire | 2016 - 2017 | HD | </h3>
+			<h4>Riusciranno Roma e Napoli a sconfiggere l'impero della Juventus?</h4>
+		</div>
+	</div>
+	</section>
+
+	<section class="promocinema__logan">
+	<a href="logan.html"><div img class="promocinema__logan__image" ></div></a>
+	<div class="promocinema__copy">
+		<div class="promocinema__copy__text">
+			<h3>Napoli - Real Madrid |LOGAN-The Wolverine | Promo | 2016 - 2017 | HD | </h3>
+			<h4>C'è ancora tempo per Mertens e compagni per passare il turno, ci riusciranno?</h4>
+		</div>
+	</div>
+	</section>
+
+	<section class="promocinema__batman">
+	<a href="batman.html"><div img class="promocinema__batman__image" ></div></a>
+	<div class="promocinema__copy">
+		<div class="promocinema__copy__text">
+			<h3>Cristiano Ronaldo - The Dark Knight Rises | 2015-2016 | HD | </h3>
+			<h4>Rivivi i momenti migliori del pallone d'oro 2016?</h4>
+		</div>
+	</div>
+	</section>
+
+	<section class="promocinema__starwars2">
+	<a href="starwars2.html"><div img class="promocinema__starwars2__image" ></div></a>
+	<div class="promocinema__copy">
+		<div class="promocinema__copy__text">
+			<h3>Serie A Tim - The Force Awakens | 2015 - 2016 | HD | </h3>
+			<h4>Promo sull'inizio di una Serie A che si attende molto combattuta</h4>
+		</div>
+	</div>
+	</section>
+
+
+	<section class="cards__social clearfix">
+		<div class="card__social" >
+			<a href="https://www.facebook.com/Nephtysn6/"><img class="card__social__image"src="https://image.freepik.com/free-icon/facebook-square-logo_318-40275.jpg" width="150" height="150" alt="Facebook"></a>
+			<div class="card__social__copy">
+				</div>
+		</div>
+		<div class="card">
+			<a href="https://www.youtube.com/FedericoCaria"><img class="card__image"src="https://image.freepik.com/free-icon/youtube-symbol_318-64721.jpg " width="150" height="150" alt="Youtube"></a>
+			<div class="card__copy">
+
+			</div>
+		</div>
+		<div class="card">
+			<a href="https://www.instagram.com/fede_caria.m/"><img class="card__image"src="https://image.freepik.com/free-icon/instagram-social-network-logo-of-photo-camera_318-64651.jpg" width="150px" height="150px" alt="Instagram"></a>
+			<div class="card__copy">
+				
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+<footer class="footer">
+<p>Copyright - 2017 Federico Caria </p>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
